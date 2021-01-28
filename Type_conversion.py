@@ -4,6 +4,7 @@ There are two types of type conversion:-
 2.Explicit: int(),float(),complex(),list(),tuple(),str(),set(),dict(),bin(),oct(),hex()
 
 '''
+
 #Implicit
 print(3/2)
 
