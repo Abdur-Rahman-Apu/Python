@@ -1,0 +1,58 @@
+'''
+There are two types of data type:
+1.Built in data type
+2.User define data type
+
+We can check the type of data by using type() function
+
+
+'''
+
+#NO 1: Built in datatype
+
+#None type
+a=None
+print(type(a))
+'''
+Numeric type:
+    *INT
+    *Float
+    *Complex
+'''
+
+a=10
+print(type(a))
+
+a=10.0
+print(type(a))
+
+a=3+5j
+print(type(a))
+
+'''
+Sequence type:
+*String     -> Sequence of characters and immutable.
+*List       -> Group of different type of elements and mutable.
+*Tuple      -> Group of different type of elements and immutable
+*Set        -> Group of different type of elements and immutable
+*Dictionary -> Group of different type of elements in the form of key and value pair and immutable.
+*Range      -> Sequence of number of elements and Cann't be modifed the value of range.
+'''
+
+str="Hello world"
+print(str,type(str))
+
+lst=[1,2.0,'hi',a]
+print(lst,type(lst))
+
+tpl=(1,2.0,'hi',a)
+print(tpl,type(tpl))
+
+set_py={1,2.0,'hi',a}
+print(set_py,type(set_py))
+
+dictionary={'No 1':200,'No2':300}
+print(dictionary,type(dictionary))
+
+rang=range(1,5)
+print(rang,type(rang))
